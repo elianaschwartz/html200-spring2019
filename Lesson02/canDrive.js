@@ -1,6 +1,6 @@
-let first = 'Eliana'
-let last = 'Schwartz'
-let age = 14
+let first = 'Eliana';
+let last = 'Schwartz';
+let age = 14;
 
 if (age >= 16) {
   console.log(first + ' ' + last + ' ' + 'can drive', age-16 + ' ' + 'years' );
