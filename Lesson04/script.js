@@ -6,3 +6,13 @@ function numberSquarer() {
 
   alert(input + ' ' + 'squared = ' + result);
 }
+
+function numberMultiplier() {
+  let firstInput = prompt('Pick a number');
+  let secondInput = prompt('Pick another number');
+  let result = 0;
+
+  result = Number(firstInput) * Number(secondInput);
+
+  alert(firstInput + ' multiplied by ' + secondInput + " = " + result);
+}
