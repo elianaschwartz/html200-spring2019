@@ -1,4 +1,4 @@
-let balance = 1000
+let balance = 1000;
 let quit = false;
 
 function bank() {
